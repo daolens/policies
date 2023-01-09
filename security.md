@@ -12,6 +12,10 @@ In order to give the community time to respond and upgrade we strongly urge you 
 
 DaoLens uses Discord and Metamask for login and signup. We follow the best practices as listed in the official Discord and Metamask developer docs [here](https://discord.com/developers/docs/topics/oauth2) and [here](https://docs.metamask.io/guide/).
 
+### Database
+
+We use Mongo DB for storing the data, and follow the best practices recommended by them. More on security of MongoDB [here](https://www.mongodb.com/docs/manual/security/).
+
 ### DDOS
 
 We use [HAProxy](https://www.haproxy.org/) for DDOS protection.
